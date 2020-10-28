@@ -1,6 +1,6 @@
-# graphcms-E-commerce-store
+# Geeting started with JAMStack Project
 
-Using [apollo-boost](https://github.com/apollographql/apollo-boost) (a [GraphQL](http://graphql.org/) adapter) and [React](https://facebook.github.io/react/) to list get-together products' data from GraphCMS.
+Using [apollo-boost](https://github.com/apollographql/apollo-boost) (a [GraphQL](http://graphql.org/) adapter) and [React](https://facebook.github.io/react/) to list get-together products' data from 8Base.
 
 ## Installation
 -Ensure you change the `URI endpoint` given to you by `Graph CMS`.
