@@ -25,7 +25,7 @@ const Allproducts = () => {
             handleClose={() => setModal(false)}
           ></Cart>
           <div className="row">
-            {data.productses.map((item) => (
+            {data.smashingsList.items.map(item => (
               <Product key={item.id} product={item} addItem={addItem} />
             ))}
           </div>
@@ -36,7 +36,5 @@ const Allproducts = () => {
         return <div>Error! </div>;
       }
   }
-
-
 };
 export default Allproducts;
