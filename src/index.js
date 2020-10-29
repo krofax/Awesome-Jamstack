@@ -7,7 +7,7 @@ import { ApolloProvider as ApolloHooksProvider } from "react-apollo-hooks";
 import * as serviceWorker from "./serviceWorker";
 
 const client = new ApolloClient({
-  uri: "https://api.8base.com/ckggkeoxd003s07l56pz99981",
+  uri: "<YOUR_8BASE_URI>",
 });
 
 ReactDOM.render(
