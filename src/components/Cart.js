@@ -10,7 +10,7 @@ const Cart = ({ handleClose, show, items }) => {
           <div className="card" style={{ width: "18rem" }} key={item.id}>
             <img
               src={item.image.downloadUrl}
-              className="card-img-top"
+              className="card-img-top" 
               alt="shirt"
             />
             <div className="card-body">
